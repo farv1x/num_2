@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище user42_dbModelContainer" CdmEntityContainer="user42_dbEntities1">
+    <EntitySetMapping Name="Departament_s">
+      <EntityTypeMapping TypeName="user42_dbModel.Departament_s">
+        <MappingFragment StoreEntitySet="Departament_s">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id_manager" ColumnName="id_manager" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee_s">
+      <EntityTypeMapping TypeName="user42_dbModel.Employee_s">
+        <MappingFragment StoreEntitySet="Employee_s">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="full_name" ColumnName="full_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="hire_date" ColumnName="hire_date" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="id_position" ColumnName="id_position" />
+          <ScalarProperty Name="id_departament" ColumnName="id_departament" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Position_s">
+      <EntityTypeMapping TypeName="user42_dbModel.Position_s">
+        <MappingFragment StoreEntitySet="Position_s">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
